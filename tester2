@@ -206,13 +206,13 @@ def main(stdscr):
         time.sleep(1.5)
 
     if 's' in operations:
-        input_window.move(15,0)
+      '''  input_window.move(15,0)
         input_window.clrtoeol()
         input_window.addstr(15, 0, "Running SBR...")
         input_window.refresh()
         done = False
         t = threading.Thread(target=animate, args=('s'))
-        t.start()
+        t.start() '''
 
         # Set error reporting to 0
         device_window_height = 15
